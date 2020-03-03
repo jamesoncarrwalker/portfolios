@@ -1,0 +1,47 @@
+
+
+
+
+body h1, h2, h3, h4, h5, h6 {
+
+
+    color: #337ab7;
+}
+
+#nav {
+    margin-bottom: 40px;
+}
+.body .container {
+
+    padding: 0;
+}
+#skills {
+    height: 220px;
+    overflow: auto;
+    padding: 0;
+
+}
+#skills h4{
+
+    padding:5px;
+
+}
+
+#overview {
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 150px;
+}
+
+#peepshow {
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 250px;
+}
+
+#peepshow{
+
+    font-size: x-large;
+}

@@ -1,0 +1,555 @@
+
+@media screen and (max-width: 768px) {
+
+ body {
+
+     background-color: #3c3c3c;
+     /*background-attachment: fixed;*/
+     /*background-size: cover;*/
+     /*background-position: center;*/
+     /*background-repeat: no-repeat;*/
+     height: 100%;
+ }
+
+}
+
+@media screen and (min-width: 768px){
+body{
+    background-image: url("pics/pfbkg.jpg");
+    background-color: #3c3c3c;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+
+
+}}
+
+.header{
+    background-color:#3c3f41 ;
+    color:#3c3f41 ;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    opacity: 1;
+    z-index: 10;
+}
+
+.window{
+    background-color: transparent;}
+/*margin-bottom:100px;}*/
+
+.whitesmoke{
+    color: whitesmoke;
+}
+
+.consolefont {
+
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.namebadge{
+    padding-top:10%;
+
+
+}
+
+.langslab{
+    padding-top:250px;
+    color: whitesmoke;
+
+}
+
+.fadecolor {
+    color:whitesmoke ;
+    opacity: .5;
+    transition: ease-in-out 2.5s;
+}
+.paste{
+    opacity:0;
+    transition: ease-in-out 1s;
+}
+
+#tiles{
+
+    height: auto;
+    z-index: 0;
+    margin-top: 49px;
+
+
+
+}
+
+.buffer{
+    margin-bottom: 50%;
+}
+
+@media screen and (min-width: 768px){  .tile{
+    height: 200px;
+    opacity: .5;
+    transition: ease-in-out 1s;
+
+}}
+@media screen and (max-width: 767px){  .tile{
+    height: 200px;
+    opacity: .85;
+
+
+}}
+
+.tile:hover{
+    opacity: .8;
+    transition: ease-in .5s;
+}
+
+.fadein{
+    opacity: 1;
+    transition: ease-in 1.5s;
+}
+
+.animbtn.h2:hover{
+    background-color:#3c3f41;
+    opacity: .25;
+    transition: ease-in .75s;
+}
+
+.tagline{
+    color: black;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.tagpic{
+    left: 60%;
+    top:60%;
+    position: absolute;
+}
+
+.contacttile{
+    background-color: cornflowerblue;
+}
+.projects{
+    background-color: purple;
+}
+.html{
+    color: #e8bf6a;
+}.css{
+     color: #cf8f47;
+ }.bootst{
+      color: #8ec261;
+  }.js{color:#9876aa;}.js2{color:#a8b6c4;}.php{color:#fd9417;}
+.mysql a{text-decoration: none; border-bottom:1px dotted whitesmoke; color: #52bcf7;}
+.mysql{
+    color: #52bcf7;
+}.int{
+     color: #6897bb;
+ }
+.black{
+    color: black;
+    font-weight: bold;
+}
+.bold{
+    font-weight: bold;
+}
+.about{
+    font-size: 7em;
+    margin-top: 10px;
+}
+.info{
+    background-color: orange;
+}
+
+
+@media screen and (min-width: 992px){ #skills{
+    background-color: black;
+    color: whitesmoke;
+    min-height: 600px;
+    opacity: .7;
+
+}}
+
+
+@media screen and (max-width: 991px){
+    #skills{
+        height: 650px;
+        background-color: black;
+        color: whitesmoke;
+        opacity: .7;
+
+    }
+
+}
+@media screen and (max-width: 768px){
+    #jobskills{
+        max-height: 100px;
+        overflow-y: scroll;
+    }
+
+}
+.consbar{
+    background-color: #196fef;
+    opacity: .7;
+    height: 20px;
+
+
+}
+.buffer{
+    background-color: whitesmoke;
+    height: 400%;
+    opacity: .65;
+}
+
+
+
+.projimg{
+    border: 3px solid whitesmoke;
+}
+
+
+
+a:hover{
+    color: #337ab7;
+}
+
+@media screen and (min-width: 992px) {
+    #jobskills{
+        height: 200px;
+    }
+
+}
+@media screen and (max-width: 992px){
+
+    #jobskills li{
+        display: inline;
+    }
+
+}
+
+#languages{
+    border: 3px solid whitesmoke;
+}
+
+
+.banner{
+    background-color: whitesmoke;opacity: .8; border-radius: 30px; text-decoration: underline;
+}
+
+
+.trumps{
+    height: 450px;
+    width: 75%;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 10px;
+    border: 8px solid #191919;
+    font-family: 'Righteous', cursive;
+    color: whitesmoke;
+    opacity: 1;
+
+}
+.tfg{
+    background-color: silver;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.statement{
+    font-size: small;
+    font-weight: lighter;
+    text-align: justify;
+
+}
+.cardwrap{ position: relative;
+    perspective: 800px;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+
+}
+#prof{
+    position: absolute;
+    transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transition: .75s;
+    width: 100%;
+    height: 100%;
+
+}
+#prof figure{
+    backface-visibility: hidden;
+
+    position: absolute;width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+
+
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+
+    -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+
+    -ms-transition: 0.6s;
+    -ms-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+}
+#prof .back{
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+}
+#prof.flipped{
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+}
+
+#pers{
+    position: absolute;
+    transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transition: .75s;
+    width: 100%;
+    height: 100%;
+
+}
+#pers figure{
+    backface-visibility: hidden;
+
+    position: absolute;width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+
+
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+
+    -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+
+    -ms-transition: 0.6s;
+    -ms-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+}
+#pers .back{
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+}
+#pers.flipped{
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+}
+
+#papp{
+    position: absolute;
+    transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transition: .75s;
+    width: 100%;
+    height: 100%;
+
+}
+#papp figure{
+    backface-visibility: hidden;
+
+    position: absolute;width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+
+
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+
+    -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+
+    -ms-transition: 0.6s;
+    -ms-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+}
+#papp .back{
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+}
+#papp.flipped{
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+}
+.deck{
+    height: 450px;
+}
+
+#personal{
+    background-color: whitesmoke;
+    height: 150%;
+    opacity:.8;
+
+}
+#projects{
+    margin-bottom: 50px;
+
+}
+
+@media screen and (min-width: 768px){ #fin{
+    min-height: 500px;
+    background: transparent;
+}}
+@media screen and (max-width: 768px){ #fin{
+    min-height: 400px;
+
+
+        background-image: url("pics/pfbkg.jpg");
+        background-color: #3c3c3c;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    margin-top: 50px;
+
+}}
+
+
+
+
+.footer{
+    background-color: whitesmoke;
+    height: 130px;
+    opacity: .7;
+    position: relative;
+
+}
+
+#pack{
+
+    height:200%;
+
+}
+
+.meths{
+    padding-top: 15px;
+}
+#header a{
+    color:inherit;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: black;
+    color: red;
+}
+
+.mobtrump{
+    background-color: black;
+    border-radius:  15px;
+    margin-bottom: 50px;
+}
+
+#welcome{
+    color: whitesmoke;
+}
+
+#land
+{
+    height: 2000px;
+
+}
+/*#buzzword{*/
+    /*padding-top:30%;*/
+/*}*/
+
+
+@media screen and (max-width: 1200px){ #buzzword{
+   padding-top: 30%;
+
+}}
+
+@media screen and (max-width: 1400px){ #buzzword{
+   padding-top: 20%;
+
+}}
+@media screen and (min-width: 1401px){ #buzzword{
+   padding-top: 25%;
+
+}}
+
+@media screen and (max-width: 992px){ #buzzword{
+    padding-top: 60%;
+
+}}@media screen and (max-width: 768px){ #buzzword{
+    padding-top: 45%;
+
+
+}}@media screen and (max-width: 480px){ #buzzword{
+    padding-top: 75%;
+
+
+}}
+
+.tile{
+
+    border: 3px solid whitesmoke;
+
+}
+
+.yellow p{
+
+   padding-top:10%;
+   padding-left:10%;
+}
+.joke{
+    font-weight: bold;
+}
+/*@media screen and (min-width: 1200px){ #buzzword{*/
+   /*padding-top: 550px;*/
+
+/*}}*/
+
+.bants {
+
+    height:100%;
+    background-color: transparent;
+}

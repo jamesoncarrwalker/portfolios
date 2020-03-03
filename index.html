@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This site is under construction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link href="http://localhost/bootstrap-3.3.4/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="http://localhost/bootstrap-3.3.4/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+</head>
+<style>
+
+    body {
+        background-image: url('http://www.jamesmcarr.co.uk/pics/pfbkg.jpg');
+        background-attachment: fixed ;
+        background-size: cover;
+        background-position: center;
+        font-family: 'Share Tech Mono', monospace;
+        color: whitesmoke;
+    }
+    #message{
+        height: 500px;
+        background: transparent;
+    }
+
+    #header{
+        height: 50px;
+        background-color: #3c3f41;
+    }
+
+    #footer {
+        height: 100px;
+        background-color: whitesmoke;
+        opacity: .8;
+        color: #3c3f41;
+    }
+
+
+
+</style>
+
+
+<body style="" >
+
+<div class="container-fluid header " id="header" >
+
+
+
+
+    <div class="row " id="links">
+        <div class=" col-md-2 col-sm-2 col-lg-2 col-xs-3">
+
+        </div>
+        <div class=" col-md-2 col-sm-2 col-lg-2 col-xs-3">
+
+        </div>
+        <div class=" col-md-2 col-sm-2 col-lg-2 col-xs-3" id="contact">
+
+        </div>
+        <div class=" text-right col-md-6 col-sm-6 col-lg-6 col-xs-6">
+            <a href="http://www.jamesmcarr.co.uk"><h4 >www.jamesmcarr.co.uk</h4></a>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" >
+
+    <div class="row" id="message">
+        <div class="container   col-md-6 col-sm-6 col-xs-6 col-lg-6">
+
+        </div>
+
+
+        <div class="container col-md-6 col-sm-6 col-xs-6 col-lg-6"  >
+
+            <h4><span id="greeting">Hello!</span> this site is being updated, but please come back soon!</h4>
+
+        </div>
+    </div>
+
+    <div id="test"></div>
+
+</div>
+
+
+<div id="footer" class="container  col-md-12 col-sm-12 col-lg-12 col-xs-12 footer">
+    <div class="row meths">
+        <div class="container text-center col-sm-3 col-md-3 col-xs-6">
+            <h5>twitter</h5>
+            <h6> <a href="https://twitter.com/JamesmcarrPHP" target="_blank">@jamesmcarrPHP</a></h6>
+        </div>
+
+        <div class="container text-center col-sm-3 col-md-3 col-xs-6">
+            <h5>email</h5>
+            <h6><a href="mailto:james@jamesmcarr.co.uk" target="_blank">james@jamesmcarr.co.uk</a></h6>
+        </div>
+
+        <div class="container text-center col-sm-3 col-md-3 col-xs-6">
+            <h5>linkdin</h5>
+            <h6><a href="https://uk.linkedin.com/in/jamescarr29" target="_blank">linkedin profile</a></h6>
+        </div>
+
+        <div class="container text-center col-sm-3 col-md-3 col-xs-6">
+            <h5>upwork</h5>
+            <h6> <a href="https://www.upwork.com/freelancers/~018c1c2e546b11d5a1" target="_blank">Upwork profile</a></h6>
+        </div>
+    </div>
+
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script>
+
+    function greeting(){
+        var time = new Date().getHours(),
+
+            greet = document.getElementById('greeting');
+
+        if (time>0 && time <6){
+            greet.innerHTML = "Crikey it's a bit early; we are still asleep unfortunately, &";
+        }else if (time>6 && time <12){
+            greet.innerHTML = "Good morning! Unfortunately"
+        }else if (time>12 && time<18){
+            greet.innerHTML = "Good afternoon! Unfortunately"
+        }else{
+            greet.innerHTML = "Good evening! Unfortunately"
+        }
+
+
+
+    }greeting();
+
+
+
+    Date.prototype.addDays = function(days)
+    { var test = document.getElementById('test');
+        var dat = new Date(this.valueOf());
+        dat.setDate(dat.getDate() + days);
+        return dat;
+    };
+
+    var dat = new Date();
+
+    test.innerHTML=(dat.addDays(59));
+
+
+</script>
+
+</body>
+</html>

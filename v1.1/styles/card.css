@@ -1,0 +1,59 @@
+#card {
+    border: 1px solid black;
+    margin-top: 50px;
+    min-height: 450px;
+    height: auto;
+    width: auto;
+    background-color: black;
+    color: blanchedalmond;!important;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+
+
+}
+
+#head {
+
+    border-bottom: 2px solid red;
+}
+
+#card ul {
+
+    list-style-type: none;
+
+}
+
+#card a:link {
+
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+#card a:visited {
+
+    color: blanchedalmond;
+
+
+}
+
+
+
+img {
+
+    max-height: 70px;
+}
+
+#links img {
+    min-height: 70px;
+    min-width: 70px;
+
+}
+
+#card h1, h2, h3, h4, h5 {
+
+    color: blanchedalmond;
+}
+
+

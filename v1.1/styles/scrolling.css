@@ -1,0 +1,17 @@
+a[ id= "nagsteam" ]:target ~ #main div.panel {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+a[ id= "diet" ]:target ~ #main div.panel {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+}
+a[ id= "fergcarrson" ]:target ~ #main div.panel {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+}
+
+.panel{
+    height:500px;
+}
